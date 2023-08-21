@@ -9,6 +9,7 @@ git rebase -i Head~5
 ```
 then leave the first one as pick then the reset should be 's' then
 ```
+%s/pick/s/g
 wq #without !
 ```
 then
